@@ -50,15 +50,16 @@ final class ImMutableClass {
 
 public class ImmutableDemo {
     public static void main(String[] args) {
-        MutableClass mutableClass = new MutableClass("Even", Arrays.asList(2,4,6));
+        MutableClass mutableClass = new MutableClass("Even", new ArrayList<>(Arrays.asList(2,4,6)));
         System.out.println(mutableClass.getName());
         // We Can access and change the behaviour of fields
         mutableClass.setName("New Name");
         mutableClass.setIntegerList(Arrays.asList(2,4,6,8));
+        mutableClass.getIntegerList().add(8);
         System.out.println(mutableClass.getName());
         System.out.println(mutableClass.getIntegerList());
 
-        ImMutableClass imMutableClass = new ImMutableClass("Odd", Arrays.asList(1,3,5));
+        ImMutableClass imMutableClass = new ImMutableClass("Odd", new ArrayList<>(Arrays.asList(1,3,5)));
         System.out.println(imMutableClass.getName());
         // imMutableClass.name = "New Name";
         // System.out.println(mutableClass.getName());
