@@ -1,10 +1,10 @@
-package lslru;
+package com.lavakumar.interview.lruvariations.lru;
 
-import lru.LRUCache;
+
 
 public class Driver {
     public static void main(String[] args) {
-        LsLRUCache<Integer, String> cache = new LsLRUCache<>(3);
+        LRUCache<Integer, String> cache = new LRUCache<>(3);
         cache.put(1,"c++");
         cache.put(2,"Java");
         cache.put(3,"Python");

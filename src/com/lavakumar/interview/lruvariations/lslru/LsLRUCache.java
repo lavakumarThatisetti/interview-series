@@ -1,4 +1,4 @@
-package lslru;
+package com.lavakumar.interview.lruvariations.lslru;
 
 import java.util.HashMap;
 import java.util.LinkedList;

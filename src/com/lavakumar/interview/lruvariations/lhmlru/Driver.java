@@ -1,10 +1,8 @@
-package lru;
-
-
+package com.lavakumar.interview.lruvariations.lhmlru;
 
 public class Driver {
     public static void main(String[] args) {
-        LRUCache<Integer, String> cache = new LRUCache<>(3);
+        LHMLRUCache<Integer, String> cache = new LHMLRUCache<>(3);
         cache.put(1,"c++");
         cache.put(2,"Java");
         cache.put(3,"Python");

@@ -1,4 +1,4 @@
-package lru;
+package com.lavakumar.interview.lruvariations.lru;
 
 import java.util.HashMap;
 

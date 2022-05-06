@@ -1,4 +1,4 @@
-package lhmlru;
+package com.lavakumar.interview.lruvariations.lhmlru;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

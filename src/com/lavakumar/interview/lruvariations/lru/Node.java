@@ -1,4 +1,4 @@
-package lru;
+package com.lavakumar.interview.lruvariations.lru;
 
 public class Node<K,V> {
     K key;
